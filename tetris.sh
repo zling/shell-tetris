@@ -551,7 +551,7 @@ DrawBorder()
 	#显示"Score"和"Level"字样
 	echo -ne "\033[1m"
 	((y = marginLeft + mapWidth * 2 + 7))
-	((x1 = marginTop + 10))
+	((x1 = marginTop + 10)) 
 	echo -ne "\033[3${cScore}m\033[${x1};${y}HScore"
 	((x1 = marginTop + 11))
 	echo -ne "\033[3${cScoreValue}m\033[${x1};${y}H${iScore}"
